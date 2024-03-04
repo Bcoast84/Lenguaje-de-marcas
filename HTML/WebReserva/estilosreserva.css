@@ -1,0 +1,47 @@
+@charset "utf 8";
+
+
+body{     /* Se edita el fondo y sus características */
+    background-image: url(../imgs/fondo_reserva.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header h1{  /* estilos del nombre del hotel dentro de la cabecera*/
+    color:rgb(24, 54, 136);
+    text-shadow: 2px 2px 4px #555; /* Agrega una sombra con desplazamiento */
+    /*background-color: #769cd6;  Color de fondo del texto */
+    padding: 20px; /* Espacio de relleno para dar más relieve */
+    border: 2px solid #000; /* Borde para mejorar el efecto */
+    width: 50%;
+    margin: 0 auto;
+    text-align: center; /* Centrar el texto */
+}
+nav ul { /* estilos del menú de navegación */
+    list-style: none; /* Para eliminar los puntos de lista predeterminados */
+    padding: 20; /* Elimina el relleno predeterminado */
+    text-align: center;
+}
+nav ul li { /* estilos de los elementos del menú de navegación */
+    font-size: 24px;
+    display: inline; /* Coloca los elementos de lista en línea */
+    margin-right: 40px; /* Añade un margen derecho para separar los elementos (ajusta según sea necesario) */
+}
+
+
+
+
+p{      /*Se subrayan todos los párrafos para que todos los apartados de los datos de la reserva salgan subrayados*/
+    text-decoration: underline;
+}
+
+footer.contenedor {     /*Se edita el pié de página para separar ambos comentarios a los lados*/
+    text-align: justify;
+}
+        .izquierda {
+        float: left;
+        }
+
+        .derecha {
+        float: right;
+        }

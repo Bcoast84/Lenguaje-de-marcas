@@ -1,0 +1,62 @@
+@charset "utf 8";
+body {
+    background-image: url(../imgs/fondopersonal.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 80px;
+}
+
+header h1{
+    color:rgb(24, 54, 136);
+    text-shadow: 2px 2px 4px #555; /* Agrega una sombra con desplazamiento */
+    /*background-color: #769cd6;  Color de fondo del texto */
+    padding: 20px; /* Espacio de relleno para dar más relieve */
+    border: 2px solid #000; /* Borde para mejorar el efecto */
+    width: 50%;
+    margin: 0 auto;
+    text-align: center; /* Centrar el texto*/
+}
+nav ul {
+    list-style: none; /* Para eliminar los puntos de lista predeterminados */
+    padding: 20; /* Elimina el relleno predeterminado */
+    text-align: center;
+}
+
+nav ul li {
+    font-size: 24px;
+    display: inline; /* Coloca los elementos de lista en línea */
+    margin-right: 40px; /* Añade un margen derecho para separar los elementos (ajusta según sea necesario) */
+}
+
+table, td, th {
+    border: 2px solid black; /* Aquí estamos aplicando un borde de 6 píxeles de grosor en color negro */
+    width: 40%;
+  }
+ 
+   
+.contenedor {
+    text-align: justify;
+    width: 60%; /* Ancho del contenedor principal */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    padding: 20px; /* Espacio de relleno para el contenedor */
+}
+.contenedor p{
+    font-size: 20px;
+}
+.contenedor img{
+    width: 60%;
+    border-radius: 10%;
+    margin: 20px;
+    width: 200px;
+    float: right;
+}
+
+footer.contenedor {
+    text-align: justify;
+}
+.izquierda {
+    float: left;
+}
+.derecha {
+    float: right;
+}

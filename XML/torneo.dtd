@@ -1,0 +1,17 @@
+  <!ELEMENT torneo (participante+)>  <!-- El elemento torneo tendrá uno o mas participantes -->
+  <!ATTLIST torneo  
+    edicion CDATA #REQUIRED  
+    anteriorGanador CDATA #REQUIRED>   <!-- Los elementos edicion y anterior ganador deben ser obligatorios -->
+
+  <!ELEMENT participante (nombre, edad, pais, (cabezaDeSerie)?)>  <!-- se añaden los elementos de participamte,declarando cabezaDeSerie como opcional -->
+  <!ATTLIST participante
+    idP ID #REQUIRED 
+    pareja IDREF #REQUIRED>  <!-- idP es un atributo de participante y es identificador, pareja es referencia a otro identificador.Ambos obligatorios -->
+
+  <!ELEMENT nombre (#PCDATA)> <!-- Definimos los elementos y cabezaDeSerie lo añadimos vacío -->
+  <!ELEMENT edad (#PCDATA)>
+  <!ELEMENT pais (#PCDATA)>
+  <!ELEMENT cabezaDeSerie EMPTY>
+
+
+  

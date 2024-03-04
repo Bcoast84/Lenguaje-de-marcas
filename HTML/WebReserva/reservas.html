@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Se añade en el "head" la codificación, el ajuste a todos los dispositivos, el enlace a la hoja de estilos y el título -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosreserva.css">
+    <title>Reservas</title>
+</head>
+
+<header><!-- se añade la cabecera con el nombre del hotel y un pequeño menú -->
+    <h1>Hotel Fernando Wirtz ****</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+   
+</header>
+
+<body>
+    <fieldset> <!-- Se abre un fieldset general que contendrá dos internos, uno para datos personales y otro para datos de la reserva -->
+    <legend><h2><b>Reserva de alojamiento</b></h2></legend>
+    <Form action="" method="post">
+      <fieldset>
+        <legend><b>Datos personales</b></legend>  
+         <!-- Campos para introducir datos de distintos tipos -->
+        <p></p> 
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre"/>
+        <p></p>
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Introduce tus apellidos"/>
+        <p></p>
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Introduce tu teléfono"/>
+        <p></p>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Introduce tu correo"/>
+        <p></p>
+        <label for="coches">Nº de coches</label>
+        <input type="number" id="coches" name="coches" placeholder="Introduce nº de coches"/>
+        <p></p>
+      </fieldset>
+      <fieldset>
+            <legend><b>Datos de la reserva</b></legend>
+            <p>Selecciona la fecha de llegada</p>  
+            <!-- Menús desplegables para fecha -->
+            <label for="dia">Día</label>
+            <select id="dia">
+            <option value="opcion1">1</option>
+            <option value="opcion2">2</option>
+            <option value="opcion3">3</option>
+            <option value="opcion4">4</option>
+            <option value="opcion1">5</option>
+            <option value="opcion2">6</option>
+            <option value="opcion3">7</option>
+            <option value="opcion4">8</option>
+            <option value="opcion3">9</option>
+            <option value="opcion4">10</option>
+            <option value="opcion1">11</option>
+            <option value="opcion2">12</option>
+            <option value="opcion3">13</option>
+            <option value="opcion4">14</option>
+            <option value="opcion1">15</option>
+            <option value="opcion2">16</option>
+            <option value="opcion3">17</option>
+            <option value="opcion4">18</option>
+            <option value="opcion3">19</option>
+            <option value="opcion4">20</option>
+            <option value="opcion1">21</option>
+            <option value="opcion2">22</option>
+            <option value="opcion3">23</option>
+            <option value="opcion4">24</option>
+            <option value="opcion1">25</option>
+            <option value="opcion2">26</option>
+            <option value="opcion3">27</option>
+            <option value="opcion4">28</option>
+            <option value="opcion3">29</option>
+            <option value="opcion4">30</option>
+            <option value="opcion4">31</option>
+            </select>
+            <label for="mes">de</label>
+            <select id="dia">
+            <option value="opcion1">Enero</option>
+            <option value="opcion2">Febrero</option>
+            <option value="opcion3">Marzo</option>
+            <option value="opcion4">Abril</option>
+            <option value="opcion1">Mayo</option>
+            <option value="opcion2">Junio</option>
+            <option value="opcion3">Julio</option>
+            <option value="opcion4">Agosto</option>
+            <option value="opcion1">Septiembre</option>
+            <option value="opcion2">Octubre</option>
+            <option value="opcion3">Noviembre</option>
+            <option value="opcion4">Diciembre</option>
+            </select>
+            <label for="ano">de</label>
+            <select id="ano">
+            <option value="opcion1">2023</option>
+            <option value="opcion2">2024</option>
+            <option value="opcion3">2025</option>
+            <option value="opcion4">2026</option>
+            </select>
+            
+            <p>Selecciona el tipo de habitación:</p>    
+            <!-- Botón radio para elegir habitación -->
+            <label for="simple">Habitación Simple</label>
+            <input type="radio" id="simple" name="habitacion" value="simple">
+        
+            <label for="doble">Habitación Doble</label>
+            <input type="radio" id="doble" name="habitacion" value="doble">
+        
+            <label for="matrimonio">Habitación de Matrimonio</label>
+            <input type="radio" id="matrimonio" name="habitacion" value="matrimonio">
+
+            <p>Escoge algunos extras:</p>
+            <!-- checkbox para comidas/cama supletoria -->
+            <label for="desayuno">Desayuno</label>
+            <input type="checkbox" id="desayuno" name="preferencias[]" value="desayuno">
+            
+        
+            <label for="comida">Comida</label>
+            <input type="checkbox" id="comida" name="preferencias[]" value="comida">
+            
+        
+            <label for="cena">Cena</label>
+            <input type="checkbox" id="cena" name="preferencias[]" value="cena">
+            
+        
+            <label for="cama">Cama Supletoria</label>
+            <input type="checkbox" id="cama" name="preferencias[]" value="cama_supletoria">
+
+            <p></p>
+            <p>Dejanos algún comentario:</p>
+            <!-- Caja de texto para comentarios -->
+            <label for="comentario"></label>
+            <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+            <p></p>
+      </fieldset>
+          <p></p>
+          <!-- Botón para limpiar el formulario -->
+          <input type="reset" value="Limpiar">
+
+          <!-- Botón para enviar el formulario -->
+          <input type="submit" value="Enviar">   
+    </form>
+</fieldset>
+</body>
+<!-- Se añade el pie de página con copyright y creador -->
+<footer>
+        <p></p>
+        <div class="contenedor">
+            <div class="izquierda">Derechos de autor <sup>© 2023.</sup></div>
+            <div class="derecha">Design by B.Costa.</div>
+        </div>
+</footer>
+    

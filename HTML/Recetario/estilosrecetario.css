@@ -1,0 +1,58 @@
+@charset "utf 8";
+body {    /* Se edita el fondo y sus características */
+    background-image: url(../imgs/fondo2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+header h1{     /* Añade espacio entre elementos <li> */
+    color:rgb(24, 54, 136);
+    text-shadow: 2px 2px 4px #555; /* Agrega una sombra con desplazamiento */
+    background-color: #769cd6; /* Color de fondo del texto */
+    padding: 10px; /* Espacio de relleno para dar más relieve */
+    border: 1px solid #000; /* Borde para mejorar el efecto */
+}
+
+nav ul {  /* estilo del menú navegación */
+    list-style: none; /* Para eliminar los puntos de lista predeterminados */
+    padding: 20; /* Elimina el relleno predeterminado */
+    text-align: center;
+}
+
+nav ul li { /* organizamos los elementos del menú de navegación */
+    display: inline; /* Coloca los elementos de lista en línea */
+    margin-right: 40px; /* Añade un margen derecho para separar los elementos (ajusta según sea necesario) */
+}
+
+body li{  /* damos propiedades a todos los elementos de las listas <li> */
+
+    margin: 20px;
+    margin-bottom: 5px; /* Añade espacio entre elementos <li> */
+
+}
+
+
+h1 {
+    text-align: center;
+    line-height: 2;
+    text-shadow: 2px 2px 4px #555;
+}
+
+.ingredientes{ /* damos un ancho de línea diferente a los elementos de ungredientes y a los de proceso*/
+    line-height: 3.5;
+}
+.proceso{
+    line-height: 2;
+}
+
+footer.contenedor {     /*Se edita el pié de página para separar ambos comentarios a los lados*/
+    text-align: justify;
+}
+        .izquierda {
+        float: left;
+        }
+
+        .derecha {
+        float: right;
+        }
+
