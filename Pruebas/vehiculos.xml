@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coches xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vehiculos_schema.xsd">
+
+    <vehiculo referencia="AB4589R"> <marca>FORD</marca></vehiculo> 
+    <vehiculo referencia="AS1235E"> <marca>SEAT</marca> </vehiculo> 
+    <vehiculo referencia="UU4589H"> <marca>AUDI</marca> </vehiculo>
+    <vehiculo referencia="FR4588J"> <marca>FORD</marca> </vehiculo>
+</coches>
+
+    
