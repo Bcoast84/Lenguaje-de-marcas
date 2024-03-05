@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Pedidos SYSTEM "pedidos.dtd">
+
+<Pedidos>
+  <Pedido CodigoPedido="ABC123">
+    <Sucursal>
+      <DirEntrega>Direccion1</DirEntrega>
+      <SedeCentral/>
+    </Sucursal>  
+    <NombreTrabajador>Juan Perez</NombreTrabajador>
+    <FechaPedido>2024-03-05</FechaPedido>
+    <ObservacionesPedido>Urgente</ObservacionesPedido>
+    <PlazoRevision>7 días</PlazoRevision>
+      <Articulos>
+        <Articulo CodigoArt="ABD-123">
+            <UnidadesPedidas>10</UnidadesPedidas>
+            <PrecioUnidad>20.00</PrecioUnidad>
+            <ObservacionesArt>Artículo de alta demanda</ObservacionesArt>
+        </Articulo>
+      </Articulos>
+  </Pedido>
+</Pedidos>

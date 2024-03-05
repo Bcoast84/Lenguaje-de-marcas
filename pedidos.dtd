@@ -1,0 +1,21 @@
+<!ELEMENT Pedidos (Pedido+)>
+<!--definimos Pedido con sus elementos -->
+<!ELEMENT Pedido (Sucursal, NombreTrabajador, FechaPedido, ObservacionesPedido?, PlazoRevision, Articulos)> 
+    <!--definimos todos los elementos de Pedido -->
+    <!ELEMENT Sucursal (DirEntrega+, (SedeCentral)?)>
+    <!ELEMENT NombreTrabajador (#PCDATA)>
+    <!ELEMENT FechaPedido (#PCDATA)>
+    <!ELEMENT ObservacionesPedido (#PCDATA)>
+    <!ELEMENT PlazoRevision (#PCDATA)>
+    <!ELEMENT Articulos (Articulo+)>
+    <!--definimos los elementos de Sucursal -->
+    <!ELEMENT DirEntrega (#PCDATA)>
+    <!ELEMENT SedeCentral EMPTY>
+            <!-- A su vez, definimos artículo y sus elementos que estaran dentro de Articulos -->
+            <!ELEMENT Articulo (UnidadesPedidas, PrecioUnidad, ObservacionesArt)>
+            <!ELEMENT UnidadesPedidas (#PCDATA)>
+            <!ELEMENT PrecioUnidad (#PCDATA)>
+            <!ELEMENT ObservacionesArt (#PCDATA)>
+        <!--Por último, definimos los atributos de Pedido y de Articulo -->
+        <!ATTLIST Pedido CodigoPedido CDATA #REQUIRED>
+        <!ATTLIST Articulo CodigoArt CDATA #REQUIRED>
