@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd"> 
+<biblioteca> 
+    <libro>
+    <titulo>El Quijote</titulo> 
+    <autor>Miguel de Cervantes</autor>
+    <editorial>Planeta</editorial> 
+    <genero>Narrativa</genero> 
+    <edicion>45</edicion>
+    </libro> 
+    <libro>
+    <titulo>El nombre de la rosa</titulo> 
+    <autor>Umberto Eco</autor>
+    <autor>Becario ayudante de Umberto Eco</autor> 
+    <editorial>Luz</editorial>
+    <edicion>5</edicion> 
+    </libro>
+</biblioteca>

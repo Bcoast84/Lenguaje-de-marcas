@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<xs:element name="marca">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="AUDI"/>
+            <xs:enumeration value="SEAT"/>
+            <xs:enumeration value="FORD"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>
