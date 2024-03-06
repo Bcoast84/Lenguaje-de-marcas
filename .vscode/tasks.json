@@ -4,9 +4,9 @@
 		{
 			"type": "xslt-js",
 			"label": "xslt-js: Saxon-JS Transform (New)",
-			"xsltFile": "catalogo.xslt",
-			"xmlSource": "catalogo.xml",
-			"resultPath": "catalogo.html",
+			"xsltFile": "catalogo3.xslt",
+			"xmlSource": "catalogo3.xml",
+			"resultPath": "catalogo3.html",
 			"group": {
 				"kind": "build"
 			},
